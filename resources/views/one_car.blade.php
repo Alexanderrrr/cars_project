@@ -6,10 +6,11 @@
   </head>
   <body>
     <ul>
-      @foreach ($cars as $car)
-      <li><a href="/cars/one_car/{{ $car->id }}">{{ $car->title }} {{ $car->producer }}</a></li>
+      <li>{{ $car->title }}</li>
+      <li>{{ $car->producer }}</li>
+      <li>{{ $car->numberOfDoors }}</li>
 
-      @endforeach
+
     </ul>
   </body>
 </html>
