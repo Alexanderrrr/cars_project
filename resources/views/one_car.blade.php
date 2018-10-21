@@ -1,16 +1,19 @@
-<!DOCTYPE html>
-<html lang="en" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <title></title>
-  </head>
-  <body>
+@include('head')
+  <div class="alert alert-primary" role="alert">
+<pre>
     <ul>
-      <li>{{ $car->title }}</li>
-      <li>{{ $car->producer }}</li>
-      <li>{{ $car->numberOfDoors }}</li>
+
+      <h3>Single car info</h3>
+
+      <li>Title <p class="lead font-weight-bold">{{ $car->title }}</p></li>
+      <li>Producer <p class="lead font-weight-bold">{{ $car->producer }}</p></li>
+      <li>Number of doors <p class="lead font-weight-bold">{{ $car->numberOfDoors }}</p></li>
 
 
     </ul>
+    </pre>
+  </div>
+</div>
+
   </body>
 </html>

@@ -1,15 +1,13 @@
-<!DOCTYPE html>
-<html lang="en" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <title></title>
-  </head>
-  <body>
-    <ul>
+
+@include('head')
+
+    <ul class="list-group">
       @foreach ($cars as $car)
-      <li><a href="/cars/one_car/{{ $car->id }}">{{ $car->title }} {{ $car->producer }}</a></li>
+      <li  class="list-group-item"><a class="badge badge-info"href="/cars/one_car/{{ $car->id }}">{{ $car->title }} {{ $car->producer }}</a></li>
 
       @endforeach
     </ul>
   </body>
+</div>
+
 </html>

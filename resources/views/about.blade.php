@@ -1,10 +1,9 @@
-<!DOCTYPE html>
-<html lang="en" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <title></title>
-  </head>
+
+@include('head')
+
   <body>
-    <p>About us</p>
+    <p class="text-center lead">About us</p>
+  </div>
+
   </body>
 </html>
