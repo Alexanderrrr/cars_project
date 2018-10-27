@@ -11,6 +11,6 @@
     <div class="container">
             <nav class="navbar navbar-expand-lg navbar-light bg-light">
               <a href="/about" class="navbar-brand lead">About</a>
-              <a href="/cars" class="navbar-brand">Cars</a>
+              <a href="/" class="navbar-brand">Cars</a>
 
             </nav>
